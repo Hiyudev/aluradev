@@ -26,14 +26,16 @@
     text-align: center;
 }
 
-.nolist_card_icon > img {
+.nolist_card_icon > svg {
     position:relative;
     bottom: 64px;
     width: 128px;
+    height: auto;
 }
 
 .nolist_card_title {
     margin-bottom: 32px;
+    color: rgb(var(--color))
 }
 
 @media screen and (max-width: 840px){

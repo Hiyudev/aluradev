@@ -1,0 +1,145 @@
+.topbar {
+    height: 56px;
+    gap:40px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 25%;
+}
+
+.logo > svg {
+    fill: rgb(var(--color));
+}
+
+.searchbar {
+    width: 75%;
+}
+
+.ghostmenu {
+    width: 25%;
+}
+
+.responsive, .tablet, .mobile { display: none; }
+
+@media screen and (max-width: 840px){
+    .ghostmenu {
+        display: none;
+    }
+    .responsive {
+        display: flex;
+        gap: 8px;
+    }
+    .tablet {
+        display: flex;
+    }
+    .leftnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .searchbar {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+}
+
+
+
+.main {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.leftnav {
+    width: 25%;
+}
+
+.content {
+    width: 105%;
+}
+
+.list > * {
+    margin-bottom: 16px;
+}
+
+
+
+.listitem {
+    display: flex;
+    text-decoration: none;
+    color: rgb(var(--color));
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    height: 48px;
+}
+
+.itemicon {
+    display: flex;
+    background-color: rgb(var(--normal));
+    border-radius: 16px;
+}
+
+.listitem:not(.active) .itemicon {
+    background-color: rgba(var(--normal), .16);
+}
+
+.listitem:not(.active) .itemicon > img {
+    opacity: .48;
+}
+
+.listitem:not(.active) .icontitle {
+    opacity: .56;
+}
+
+
+
+.listitem:not(.active):hover .itemicon{
+    background-color: rgb(var(--normal), .64);
+}
+
+.listitem:hover .itemicon > img {
+    opacity: 1;
+}
+
+.listitem:hover .icontitle {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+.menubar {
+    position: absolute;
+    background-color: var(--itemscolor);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 24px;
+    padding: 24px;
+    height: 100%;
+    right: 0;
+    z-index: 99;
+}
+
+.menubar > .listitem {
+    margin-bottom: 16px;
+}
+
+.sidebar_title {
+    letter-spacing: 0.4em;
+    font-size: 12px;
+    margin-bottom: 16px;
+    color: rgb(var(--color));
+}

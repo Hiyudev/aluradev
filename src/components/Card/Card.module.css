@@ -1,0 +1,115 @@
+.card {
+    background: rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    margin-bottom: 64px;
+    flex: 0 0 48%;
+}
+
+.codebackground {
+    background-color: var(--backcodeblock);
+    padding: 32px;
+    border-radius: 8px;
+}
+  
+.textcode {
+    resize: none;
+    border: 0;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    white-space: pre-wrap;
+    width: 100%;
+    display: block;
+    height: 200px;
+    max-height: 300px;
+}
+
+.textcode > div {
+    padding: 16px;
+    padding-top: 48px;
+    padding-left: 12px;
+    border-radius: 8px;
+    white-space: pre-wrap;     
+    word-break: keep-all;
+    width: 100%;
+}
+
+.codeblockheader {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 16px;
+    z-index: 3;
+    display: flex;
+    gap: 8px;
+}
+
+.cardbody {
+    padding: 24px;
+}
+
+.bodytitle {
+    margin-bottom: 8px;
+    color: rgb(var(--color))
+}
+
+.bodydescription {
+    color: rgb(var(--color))
+}
+
+@media screen and (max-width: 880px){
+    .card {
+        flex: 0 0 100%;
+    }
+}
+
+.cardactions {
+    display: flex;
+    padding: 0 24px 24px 24px;
+}
+
+.iconbutton {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 16px;
+    cursor: pointer;
+    color: rgb(var(--color))
+}
+
+.iconbutton > svg {
+    width: 20px;
+}
+
+.iconbutton > svg > path {
+    fill: rgb(var(--color));
+}
+
+.iconbutton:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.iconbutton:active {
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+
+.usermenu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.display {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}

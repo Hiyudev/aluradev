@@ -1,0 +1,43 @@
+.container {
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.nolist {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nolist_card {
+    width: 70%;
+    background: rgba(0, 0, 0, 0.16);
+    margin-top: 32px;
+    padding: 0 32px 32px 32px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.nolist_card_icon > img {
+    position:relative;
+    bottom: 64px;
+    width: 128px;
+}
+
+.nolist_card_title {
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 840px){
+    .nolist_card {
+        width: 100%;
+    }
+}

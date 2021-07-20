@@ -1,0 +1,17 @@
+.sidebar_title {
+    letter-spacing: 0.4em;
+    font-size: 12px;
+    color: rgb(var(--color));
+    margin-bottom: 16px;
+}
+
+.themelist {
+    display: flex;
+    gap:40px;
+}
+
+@media screen and (max-width: 575px){
+    .themelist {
+        flex-direction: column;
+    }
+}

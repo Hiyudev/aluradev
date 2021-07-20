@@ -31,6 +31,7 @@
     bottom: 64px;
     width: 128px;
     height: auto;
+    fill: rgb(var(--color));
 }
 
 .nolist_card_title {

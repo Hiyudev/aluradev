@@ -109,8 +109,9 @@
 }
 
 .codeblockheader {
-  position: absolute;
-  margin-top: 16px;
+  position: relative;
+  top: 30px;
+  margin-top: -12px;
   margin-left: 16px;
   z-index: 3;
   display: flex;

@@ -3,7 +3,7 @@ import Navbar from '../src/components/Navbar/Navbar'
 import '../styles/globals.css'
 import 'codemirror/lib/codemirror.css'
 import { ThemeWrapper } from 'src/hooks/Theme'
-import BannerImage from '../public/metaimage.png'
+import BannerImage from '../public/static/metaimage.png'
 
 export default function App({ Component, pageProps }) {
   return (

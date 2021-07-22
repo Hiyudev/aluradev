@@ -3,6 +3,7 @@ import Navbar from '../src/components/Navbar/Navbar'
 import '../styles/globals.css'
 import 'codemirror/lib/codemirror.css'
 import { ThemeWrapper } from 'src/hooks/Theme'
+import BannerImage from '../public/metaimage.png'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -20,13 +21,13 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://aluradev.vercel.app/"/>
         <meta property="og:title" content="Aluradev - Alura Challenges"/>
         <meta property="og:description" content="Editor de códigos com snippets com opção de salvar e exportar para extensão png, svg, jpeg."/>
-        <meta property="og:image" content="./metaimage.png"/>
+        <meta property="og:image" content={BannerImage}/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://aluradev.vercel.app/"/>
         <meta property="twitter:title" content="Aluradev - Alura Challenges"/>
         <meta property="twitter:description" content="Editor de códigos com snippets com opção de salvar e exportar para extensão png, svg, jpeg."/>
-        <meta property="twitter:image" content="./metaimage.png"/>
+        <meta property="twitter:image" content={BannerImage}/>
       </Head>
       <Navbar>
         <ThemeWrapper>

@@ -20,13 +20,13 @@ export default function App({ Component, pageProps }) {
         <meta property="og:url" content="https://aluradev.vercel.app/"/>
         <meta property="og:title" content="Aluradev - Alura Challenges"/>
         <meta property="og:description" content="Editor de códigos com snippets com opção de salvar e exportar para extensão png, svg, jpeg."/>
-        <meta property="og:image" content=""/>
+        <meta property="og:image" content="./metaimage.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://aluradev.vercel.app/"/>
         <meta property="twitter:title" content="Aluradev - Alura Challenges"/>
         <meta property="twitter:description" content="Editor de códigos com snippets com opção de salvar e exportar para extensão png, svg, jpeg."/>
-        <meta property="twitter:image" content=""/>
+        <meta property="twitter:image" content="./metaimage.png"/>
       </Head>
       <Navbar>
         <ThemeWrapper>

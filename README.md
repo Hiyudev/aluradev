@@ -10,7 +10,7 @@ The challenge focused on the Front-End, it consisted of simulating a real situat
 
 <p align="center">
  <a href="#features">Features</a> • 
- <a href="#techs">Technology</a> • 
+ <a href="#technology">Technology</a> • 
  <a href="#installation">Installation</a> •
  <a href="https://aluradev.vercel.app/">Website Live Preview</a>
 </p>
